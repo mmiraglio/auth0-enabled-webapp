@@ -2,9 +2,10 @@
   "name": "auth0-enabled-webapp",
   "version": "1.0.0",
   "description": "Super Simple App to test Auth0 capabilities",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/mmiraglio/auth0-enabled-webapp/issues"
   },
-  "homepage": "https://github.com/mmiraglio/auth0-enabled-webapp#readme"
+  "homepage": "https://github.com/mmiraglio/auth0-enabled-webapp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
