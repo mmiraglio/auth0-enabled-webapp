@@ -1,0 +1,22 @@
+{
+  "name": "auth0-enabled-webapp",
+  "version": "1.0.0",
+  "description": "Super Simple App to test Auth0 capabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmiraglio/auth0-enabled-webapp.git"
+  },
+  "keywords": [
+    "auth0"
+  ],
+  "author": "mmiraglio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmiraglio/auth0-enabled-webapp/issues"
+  },
+  "homepage": "https://github.com/mmiraglio/auth0-enabled-webapp#readme"
+}

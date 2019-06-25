@@ -1,0 +1,1 @@
+Super Simple App to test Auth0 platform capabilities
