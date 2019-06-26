@@ -35,7 +35,7 @@ window.onload = async () => {
 
 const updateUI = async () => {
     const isAuthenticated = await auth0.isAuthenticated();
-
+    console.log(`Is user authenticated: ${isAuthenticated}`);
     document.getElementById("btn-logout").disabled = !isAuthenticated;
     document.getElementById("btn-login").disabled = isAuthenticated;
 
