@@ -47,12 +47,11 @@ const updateUI = async () => {
         console.log(`User: ${JSON.stringify(user)}`);
 
         document.getElementById("gated-content").classList.remove("hidden");
-        document.getElementById("ipt-access-token").value = accessToken;
-        document.getElementById("ipt-user-profile").value = JSON.stringify(user);
+        document.getElementById("ipt-access-token").innerText = accessToken;
+        document.getElementById("ipt-user-profile").innerText = JSON.stringify(user);
     } else {
         document.getElementById("gated-content").classList.add("hidden");
     }
-
 };
 
 const login = async () => {
